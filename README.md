@@ -1,5 +1,14 @@
 # Studentų pažymių skaičiavimo sistema
 
+## Diegimas Windows sistemoje (Setup.exe)
+
+1. Atsisiųskite `Setup.exe` iš [Releases](https://github.com/PatrikasStak/1uzd3-objektinis/releases/tag/v3.0)
+2. Paleiskite `Setup.exe` ir sekite diegimo vedlį
+3. Po diegimo programą rasite Start Menu arba darbalaukyje
+4. Programa veikia komandinėje eilutėje (Command Prompt)
+
+---
+
 ## Diegimo ir paleidimo instrukcija (Unix / Makefile)
 
 1. Sukompiliuoti programą:
