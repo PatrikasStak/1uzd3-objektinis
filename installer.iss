@@ -18,6 +18,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
 Source: "main.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "generuoti10000.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "generuoti100000.txt"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\Studentu Valdymo Sistema"; Filename: "{app}\main.exe"
