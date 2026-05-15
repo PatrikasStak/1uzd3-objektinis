@@ -7,8 +7,7 @@ studentas_test
 *.o
 
 generuoti1000.txt
-generuoti10000.txt
-generuoti100000.txt
+
 generuoti1000000.txt
 generuoti10000000.txt
 studentai1000.txt
