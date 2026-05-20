@@ -1,5 +1,6 @@
 #include "func.h"
 #include "names.h"
+#include <iterator>
 using std::cout;
 using std::cin;
 using std::endl;
