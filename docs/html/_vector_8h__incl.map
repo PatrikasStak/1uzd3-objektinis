@@ -1,0 +1,19 @@
+<map id="Vector.h" name="Vector.h">
+<area shape="rect" id="Node000001" title="Dinaminio masyvo šabloninė klasė – std::vector pakaitalas." alt="" coords="348,5,417,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,80,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="348,29,95,81,94,76,347,24"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="104,79,168,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="350,30,184,79,182,74,345,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="192,79,288,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="361,31,279,74,277,69,356,32"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="312,79,373,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="378,30,358,68,355,63,374,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="398,79,450,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="391,29,412,66,407,65,388,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="474,79,552,105"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="405,29,481,72,475,71,404,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="576,79,658,105"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="418,27,565,74,560,74,417,33"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="683,79,735,105"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="418,23,526,44,671,79,666,79,525,49,418,28"/>
+</map>

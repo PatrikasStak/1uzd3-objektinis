@@ -1,0 +1,5 @@
+<map id="Studentas::setEgz" name="Studentas::setEgz">
+<area shape="rect" id="Node000001" title="Nustato egzamino balą." alt="" coords="5,5,135,31"/>
+<area shape="rect" id="Node000002" href="$class_studentas.html#a5fde327b128bf9763233e09485d5cdaf" title="Grąžina egzamino balą." alt="" coords="183,5,292,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,16,170,18,164,18,135,21"/>
+</map>

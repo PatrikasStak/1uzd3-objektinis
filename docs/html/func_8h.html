@@ -123,13 +123,39 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('func_8h.html',
 <p>Pagalbinės funkcijos studentų duomenų valdymui.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="_studentas_8h_source.html">Studentas.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for func.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h__incl.png" border="0" usemap="#afunc_8h" loading="lazy" alt=""/></div>
+<map name="afunc_8h" id="afunc_8h">
+<area shape="rect" title="Pagalbinės funkcijos studentų duomenų valdymui." alt="" coords="22,5,80,31"/>
+<area shape="rect" href="_studentas_8h.html" title="Klasė, vaizduojanti studentą, paveldinti iš Zmogus." alt="" coords="5,79,97,105"/>
+<area shape="poly" title=" " alt="" coords="51,29,54,63,48,63,51,34"/>
+<area shape="rect" href="_zmogus_8h.html" title="Abstrakti bazinė klasė, vaizduojanti žmogų." alt="" coords="11,153,91,178"/>
+<area shape="poly" title=" " alt="" coords="52,102,54,137,48,137,50,107"/>
+<area shape="rect" title=" " alt="" coords="28,226,74,252"/>
+<area shape="poly" title=" " alt="" coords="53,176,54,211,48,210,49,181"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h__dep__incl.png" border="0" usemap="#afunc_8hdep" loading="lazy" alt=""/></div>
+<map name="afunc_8hdep" id="afunc_8hdep">
+<area shape="rect" title="Pagalbinės funkcijos studentų duomenų valdymui." alt="" coords="60,5,118,31"/>
+<area shape="rect" href="func_8cpp.html" title=" " alt="" coords="5,79,77,105"/>
+<area shape="poly" title=" " alt="" coords="75,43,51,80,47,77,70,45"/>
+<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="101,79,176,105"/>
+<area shape="poly" title=" " alt="" coords="107,41,133,79,127,78,105,46"/>
+</map>
+</div>
 </div>
 <p><a href="func_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aeff885154ae3c86afd7118a207624b2d" id="r_aeff885154ae3c86afd7118a207624b2d"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#aeff885154ae3c86afd7118a207624b2d">StudentVec</a> = Vector&lt;<a class="el" href="class_studentas.html">Studentas</a>&gt;</td></tr>
-<tr class="memdesc:aeff885154ae3c86afd7118a207624b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Studentų vektorius (custom Vector konteineris).  <br /></td></tr>
+<tr class="memitem:aeff885154ae3c86afd7118a207624b2d" id="r_aeff885154ae3c86afd7118a207624b2d"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#aeff885154ae3c86afd7118a207624b2d">StudentVec</a> = <a class="el" href="class_vector.html">Vector</a>&lt;<a class="el" href="class_studentas.html">Studentas</a>&gt;</td></tr>
+<tr class="memdesc:aeff885154ae3c86afd7118a207624b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Studentų vektorius (custom <a class="el" href="class_vector.html" title="Dinaminis masyvas su automatišku atminties valdymu.">Vector</a> konteineris).  <br /></td></tr>
 <tr class="memitem:a10ba95eadaa51ba1f7a2c9ddebff0971" id="r_a10ba95eadaa51ba1f7a2c9ddebff0971"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a10ba95eadaa51ba1f7a2c9ddebff0971">StudentList</a> = std::list&lt;<a class="el" href="class_studentas.html">Studentas</a>&gt;</td></tr>
 <tr class="memdesc:a10ba95eadaa51ba1f7a2c9ddebff0971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Studentų sąrašas.  <br /></td></tr>
 <tr class="memitem:a9f81074915414e1f33a75746a908a47a" id="r_a9f81074915414e1f33a75746a908a47a"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a9f81074915414e1f33a75746a908a47a">StudentDeque</a> = std::deque&lt;<a class="el" href="class_studentas.html">Studentas</a>&gt;</td></tr>
@@ -137,17 +163,17 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9ba478a809a27f12eb6e94d2bf8f2c50" id="r_a9ba478a809a27f12eb6e94d2bf8f2c50"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9ba478a809a27f12eb6e94d2bf8f2c50">Skaityti</a> (Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X)</td></tr>
+<tr class="memitem:a9ba478a809a27f12eb6e94d2bf8f2c50" id="r_a9ba478a809a27f12eb6e94d2bf8f2c50"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9ba478a809a27f12eb6e94d2bf8f2c50">Skaityti</a> (<a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X)</td></tr>
 <tr class="memdesc:a9ba478a809a27f12eb6e94d2bf8f2c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interaktyviai skaito studentų duomenis iš konsolės.  <br /></td></tr>
-<tr class="memitem:a8ca075da507301922d3f101597cba11f" id="r_a8ca075da507301922d3f101597cba11f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8ca075da507301922d3f101597cba11f">SkaitytiFaila</a> (Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X)</td></tr>
+<tr class="memitem:a8ca075da507301922d3f101597cba11f" id="r_a8ca075da507301922d3f101597cba11f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8ca075da507301922d3f101597cba11f">SkaitytiFaila</a> (<a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X)</td></tr>
 <tr class="memdesc:a8ca075da507301922d3f101597cba11f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skaito studentų duomenis iš failo.  <br /></td></tr>
-<tr class="memitem:a4a5cd2cf61c7f726eedb3ac3b3db71a7" id="r_a4a5cd2cf61c7f726eedb3ac3b3db71a7"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a4a5cd2cf61c7f726eedb3ac3b3db71a7">Vidurkis</a> (const Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X, int x)</td></tr>
+<tr class="memitem:a4a5cd2cf61c7f726eedb3ac3b3db71a7" id="r_a4a5cd2cf61c7f726eedb3ac3b3db71a7"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a4a5cd2cf61c7f726eedb3ac3b3db71a7">Vidurkis</a> (const <a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X, int x)</td></tr>
 <tr class="memdesc:a4a5cd2cf61c7f726eedb3ac3b3db71a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skaičiuoja vidurkį iš vektoriau.  <br /></td></tr>
-<tr class="memitem:afcd8619279c5e8891f41be755180b234" id="r_afcd8619279c5e8891f41be755180b234"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#afcd8619279c5e8891f41be755180b234">Mediana</a> (const Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X, int x)</td></tr>
+<tr class="memitem:afcd8619279c5e8891f41be755180b234" id="r_afcd8619279c5e8891f41be755180b234"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#afcd8619279c5e8891f41be755180b234">Mediana</a> (const <a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X, int x)</td></tr>
 <tr class="memdesc:afcd8619279c5e8891f41be755180b234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skaičiuoja medianą iš vektoriaus.  <br /></td></tr>
-<tr class="memitem:af76875a84ab82e8aaeec74ef608f510d" id="r_af76875a84ab82e8aaeec74ef608f510d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af76875a84ab82e8aaeec74ef608f510d">Rezultatas</a> (Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X)</td></tr>
+<tr class="memitem:af76875a84ab82e8aaeec74ef608f510d" id="r_af76875a84ab82e8aaeec74ef608f510d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af76875a84ab82e8aaeec74ef608f510d">Rezultatas</a> (<a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X)</td></tr>
 <tr class="memdesc:af76875a84ab82e8aaeec74ef608f510d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rikiuoja ir išveda rezultatus į konsolę arba failą.  <br /></td></tr>
-<tr class="memitem:ab3a1f658dc5d05e1c424d3fef00f5c5b" id="r_ab3a1f658dc5d05e1c424d3fef00f5c5b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab3a1f658dc5d05e1c424d3fef00f5c5b">RezultatasFailo</a> (Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X)</td></tr>
+<tr class="memitem:ab3a1f658dc5d05e1c424d3fef00f5c5b" id="r_ab3a1f658dc5d05e1c424d3fef00f5c5b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab3a1f658dc5d05e1c424d3fef00f5c5b">RezultatasFailo</a> (<a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;X)</td></tr>
 <tr class="memdesc:ab3a1f658dc5d05e1c424d3fef00f5c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rikiuoja ir išveda rezultatus (abi galutinių balų versijas).  <br /></td></tr>
 <tr class="memitem:a0bb1a52b759e219647f4a0e35c80e805" id="r_a0bb1a52b759e219647f4a0e35c80e805"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0bb1a52b759e219647f4a0e35c80e805">FailuGeneravimas</a> ()</td></tr>
 <tr class="memdesc:a0bb1a52b759e219647f4a0e35c80e805"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generuoja studentų duomenų failus (1k, 10k, 100k, 1m, 10m).  <br /></td></tr>
@@ -202,12 +228,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#aeff885154ae3c86afd7118a207624b2d">StudentVec</a> = Vector&lt;<a class="el" href="class_studentas.html">Studentas</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#aeff885154ae3c86afd7118a207624b2d">StudentVec</a> = <a class="el" href="class_vector.html">Vector</a>&lt;<a class="el" href="class_studentas.html">Studentas</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Studentų vektorius (custom Vector konteineris). </p>
+<p>Studentų vektorius (custom <a class="el" href="class_vector.html" title="Dinaminis masyvas su automatišku atminties valdymu.">Vector</a> konteineris). </p>
 
 </div>
 </div>
@@ -229,6 +255,16 @@ Functions</h2></td></tr>
 
 <p>Generuoja studentų duomenų failus (1k, 10k, 100k, 1m, 10m). </p>
 <p>Kiekvienam failui matuoja ir išveda generavimo laiką. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a0bb1a52b759e219647f4a0e35c80e805_icgraph.png" border="0" usemap="#afunc_8h_a0bb1a52b759e219647f4a0e35c80e805_icgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a0bb1a52b759e219647f4a0e35c80e805_icgraph" id="afunc_8h_a0bb1a52b759e219647f4a0e35c80e805_icgraph">
+<area shape="rect" title="Generuoja studentų duomenų failus (1k, 10k, 100k, 1m, 10m)." alt="" coords="103,5,229,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="84,19,55,21,55,16,89,17"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -254,6 +290,58 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a5733e1d54583e68a65a2ae918a418a1e_cgraph.png" border="0" usemap="#afunc_8h_a5733e1d54583e68a65a2ae918a418a1e_cgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a5733e1d54583e68a65a2ae918a418a1e_cgraph" id="afunc_8h_a5733e1d54583e68a65a2ae918a418a1e_cgraph">
+<area shape="rect" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant deką." alt="" coords="5,252,194,278"/>
+<area shape="rect" href="func_8cpp.html#ae8fb2176021e870e726fb2c9890cacff" title=" " alt="" coords="242,252,417,278"/>
+<area shape="poly" title=" " alt="" coords="193,262,229,264,224,266,195,267"/>
+<area shape="rect" href="class_studentas.html#aa1ca3ef2703dda0905fb699f986dd714" title="Prideda namų darbo pažymį." alt="" coords="502,5,629,31"/>
+<area shape="poly" title=" " alt="" coords="332,250,347,210,373,152,412,92,436,64,463,40,490,28,486,31,467,44,440,68,416,95,378,155,352,212,337,253"/>
+<area shape="rect" href="class_studentas.html#a04c2d191c9d16630292b4a2851bfbbab" title="Išvalo namų darbų pažymių sąrašą." alt="" coords="499,55,632,80"/>
+<area shape="poly" title=" " alt="" coords="335,250,352,217,380,173,418,128,464,89,487,80,482,83,466,94,422,132,385,177,357,220,339,253"/>
+<area shape="rect" href="class_studentas.html#ab9dcc63a1ad95f1f34db3e5a96449720" title="Grąžina galutinį balą (medianos metodas)." alt="" coords="485,104,646,130"/>
+<area shape="poly" title=" " alt="" coords="339,250,388,196,424,165,464,139,478,134,474,137,466,143,427,169,392,199,343,254"/>
+<area shape="rect" href="class_studentas.html#a49a2519eb2a57b8c0b572cf414ccc3fc" title="Grąžina galutinį balą (vidurkio metodas)." alt="" coords="488,153,643,179"/>
+<area shape="poly" title=" " alt="" coords="349,249,400,218,464,188,486,183,481,185,466,193,403,223,352,254"/>
+<area shape="rect" href="class_studentas.html#a67cbc20c9554324502d140eb05370be8" title="Grąžina pavardę." alt="" coords="498,203,633,228"/>
+<area shape="poly" title=" " alt="" coords="394,249,488,231,483,233,395,254"/>
+<area shape="rect" href="class_studentas.html#ad7097a9d0431a41a0f0f63770ef6559d" title="Nustato egzamino balą." alt="" coords="501,252,630,278"/>
+<area shape="poly" title=" " alt="" coords="416,262,488,264,483,266,418,267"/>
+<area shape="rect" href="class_studentas.html#ae4c3b02e68af5ed87c68101ba699539c" title="Nustato pavardę." alt="" coords="488,301,643,327"/>
+<area shape="poly" title=" " alt="" coords="394,276,488,297,483,298,395,281"/>
+<area shape="rect" href="class_studentas.html#a6024e8fb5c3a9fbd48ca522f976f8465" title="Nustato vardą." alt="" coords="492,351,639,376"/>
+<area shape="poly" title=" " alt="" coords="351,276,403,306,466,337,486,346,481,346,464,342,400,311,351,281"/>
+<area shape="rect" href="class_studentas.html#ae71ca0b356510d5c7bd1e46d99c1f390" title="Apskaičiuoja galutinius balus pagal vidurkį ir medianą." alt="" coords="465,400,666,426"/>
+<area shape="poly" title=" " alt="" coords="342,275,392,330,427,361,466,387,479,394,473,394,464,391,424,365,388,334,340,281"/>
+<area shape="rect" href="func_8cpp.html#aa7299094f87ed196ae9e2f82a8bd6492" title=" " alt="" coords="516,449,615,475"/>
+<area shape="poly" title=" " alt="" coords="338,276,357,310,385,353,422,398,466,436,504,454,498,453,464,440,418,402,380,356,352,312,336,281"/>
+<area shape="rect" href="class_studentas.html#ac21ab5fa524d6d0a75ca4cbfa2df113c" title="Grąžina vardą." alt="" coords="502,499,629,524"/>
+<area shape="poly" title=" " alt="" coords="336,275,352,318,378,375,416,435,440,462,467,485,490,500,485,499,463,490,436,466,412,438,373,377,347,320,334,280"/>
+<area shape="rect" href="class_studentas.html#a5fde327b128bf9763233e09485d5cdaf" title="Grąžina egzamino balą." alt="" coords="714,252,824,278"/>
+<area shape="poly" title=" " alt="" coords="630,262,702,264,696,265,631,267"/>
+<area shape="rect" href="class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="720,325,818,351"/>
+<area shape="poly" title=" " alt="" coords="633,397,665,386,689,374,713,360,721,359,726,357,716,365,692,379,667,391,634,402"/>
+<area shape="rect" href="class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="725,375,813,400"/>
+<area shape="poly" title=" " alt="" coords="666,398,712,394,707,395,667,403"/>
+<area shape="rect" href="class_studentas.html#ae0b7a6f041dcef76de476950547c32c7" title="Grąžina namų darbų pažymių sąrašą." alt="" coords="718,424,820,450"/>
+<area shape="poly" title=" " alt="" coords="667,422,705,429,700,429,667,427"/>
+<area shape="rect" href="class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="723,473,815,499"/>
+<area shape="poly" title=" " alt="" coords="633,424,667,434,692,446,716,460,726,467,720,466,713,465,689,451,665,439,633,429"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a5733e1d54583e68a65a2ae918a418a1e_icgraph.png" border="0" usemap="#afunc_8h_a5733e1d54583e68a65a2ae918a418a1e_icgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a5733e1d54583e68a65a2ae918a418a1e_icgraph" id="afunc_8h_a5733e1d54583e68a65a2ae918a418a1e_icgraph">
+<area shape="rect" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant deką." alt="" coords="103,5,291,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="85,19,55,21,55,16,90,17"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -279,6 +367,58 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a9412417c1f3f8e496908b58e86223c68_cgraph.png" border="0" usemap="#afunc_8h_a9412417c1f3f8e496908b58e86223c68_cgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a9412417c1f3f8e496908b58e86223c68_cgraph" id="afunc_8h_a9412417c1f3f8e496908b58e86223c68_cgraph">
+<area shape="rect" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant sąrašą." alt="" coords="5,252,177,278"/>
+<area shape="rect" href="func_8cpp.html#ae8fb2176021e870e726fb2c9890cacff" title=" " alt="" coords="225,252,400,278"/>
+<area shape="poly" title=" " alt="" coords="176,262,211,263,207,266,178,267"/>
+<area shape="rect" href="class_studentas.html#aa1ca3ef2703dda0905fb699f986dd714" title="Prideda namų darbo pažymį." alt="" coords="486,5,612,31"/>
+<area shape="poly" title=" " alt="" coords="315,250,330,210,356,152,395,92,419,64,446,40,473,28,469,31,450,44,423,68,399,95,361,155,335,212,320,253"/>
+<area shape="rect" href="class_studentas.html#a04c2d191c9d16630292b4a2851bfbbab" title="Išvalo namų darbų pažymių sąrašą." alt="" coords="482,55,615,80"/>
+<area shape="poly" title=" " alt="" coords="318,250,335,217,363,173,401,128,447,89,470,80,465,83,449,94,405,132,368,177,340,220,322,253"/>
+<area shape="rect" href="class_studentas.html#ab9dcc63a1ad95f1f34db3e5a96449720" title="Grąžina galutinį balą (medianos metodas)." alt="" coords="468,104,629,130"/>
+<area shape="poly" title=" " alt="" coords="322,250,371,196,407,165,447,139,461,134,457,137,449,143,410,169,375,199,326,254"/>
+<area shape="rect" href="class_studentas.html#a49a2519eb2a57b8c0b572cf414ccc3fc" title="Grąžina galutinį balą (vidurkio metodas)." alt="" coords="471,153,626,179"/>
+<area shape="poly" title=" " alt="" coords="332,249,383,218,447,188,469,183,464,185,449,193,386,223,335,254"/>
+<area shape="rect" href="class_studentas.html#a67cbc20c9554324502d140eb05370be8" title="Grąžina pavardę." alt="" coords="482,203,616,228"/>
+<area shape="poly" title=" " alt="" coords="377,249,471,231,466,233,378,254"/>
+<area shape="rect" href="class_studentas.html#ad7097a9d0431a41a0f0f63770ef6559d" title="Nustato egzamino balą." alt="" coords="484,252,613,278"/>
+<area shape="poly" title=" " alt="" coords="399,262,471,264,466,266,401,267"/>
+<area shape="rect" href="class_studentas.html#ae4c3b02e68af5ed87c68101ba699539c" title="Nustato pavardę." alt="" coords="472,301,626,327"/>
+<area shape="poly" title=" " alt="" coords="377,276,471,297,466,298,378,281"/>
+<area shape="rect" href="class_studentas.html#a6024e8fb5c3a9fbd48ca522f976f8465" title="Nustato vardą." alt="" coords="476,351,622,376"/>
+<area shape="poly" title=" " alt="" coords="334,276,386,306,449,337,469,346,464,346,447,342,383,311,334,281"/>
+<area shape="rect" href="class_studentas.html#ae71ca0b356510d5c7bd1e46d99c1f390" title="Apskaičiuoja galutinius balus pagal vidurkį ir medianą." alt="" coords="448,400,649,426"/>
+<area shape="poly" title=" " alt="" coords="325,275,375,330,410,361,449,387,462,394,456,394,447,391,407,365,371,334,323,281"/>
+<area shape="rect" href="func_8cpp.html#aa7299094f87ed196ae9e2f82a8bd6492" title=" " alt="" coords="499,449,598,475"/>
+<area shape="poly" title=" " alt="" coords="321,276,340,310,368,353,405,398,449,436,487,454,481,453,447,440,401,402,363,356,335,312,319,281"/>
+<area shape="rect" href="class_studentas.html#ac21ab5fa524d6d0a75ca4cbfa2df113c" title="Grąžina vardą." alt="" coords="485,499,612,524"/>
+<area shape="poly" title=" " alt="" coords="319,275,335,318,361,375,399,435,423,462,450,485,473,500,468,499,446,490,419,466,395,438,356,377,330,320,317,280"/>
+<area shape="rect" href="class_studentas.html#a5fde327b128bf9763233e09485d5cdaf" title="Grąžina egzamino balą." alt="" coords="697,252,807,278"/>
+<area shape="poly" title=" " alt="" coords="613,262,685,264,679,265,614,267"/>
+<area shape="rect" href="class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="703,325,801,351"/>
+<area shape="poly" title=" " alt="" coords="616,397,648,386,672,374,696,360,704,359,709,357,699,365,675,379,650,391,617,402"/>
+<area shape="rect" href="class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="708,375,796,400"/>
+<area shape="poly" title=" " alt="" coords="649,398,695,394,690,395,650,403"/>
+<area shape="rect" href="class_studentas.html#ae0b7a6f041dcef76de476950547c32c7" title="Grąžina namų darbų pažymių sąrašą." alt="" coords="701,424,803,450"/>
+<area shape="poly" title=" " alt="" coords="650,422,688,429,683,429,650,427"/>
+<area shape="rect" href="class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="706,473,798,499"/>
+<area shape="poly" title=" " alt="" coords="616,424,650,434,675,446,699,460,709,467,703,466,696,465,672,451,648,439,616,429"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a9412417c1f3f8e496908b58e86223c68_icgraph.png" border="0" usemap="#afunc_8h_a9412417c1f3f8e496908b58e86223c68_icgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a9412417c1f3f8e496908b58e86223c68_icgraph" id="afunc_8h_a9412417c1f3f8e496908b58e86223c68_icgraph">
+<area shape="rect" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant sąrašą." alt="" coords="103,5,274,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="85,19,55,21,55,16,90,17"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -304,6 +444,58 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a40b7ebdbf51d50cf667ffd4d4a87aaf6_cgraph.png" border="0" usemap="#afunc_8h_a40b7ebdbf51d50cf667ffd4d4a87aaf6_cgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a40b7ebdbf51d50cf667ffd4d4a87aaf6_cgraph" id="afunc_8h_a40b7ebdbf51d50cf667ffd4d4a87aaf6_cgraph">
+<area shape="rect" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant vektorių." alt="" coords="5,252,179,278"/>
+<area shape="rect" href="func_8cpp.html#ae8fb2176021e870e726fb2c9890cacff" title=" " alt="" coords="227,252,402,278"/>
+<area shape="poly" title=" " alt="" coords="178,262,213,263,209,266,180,267"/>
+<area shape="rect" href="class_studentas.html#aa1ca3ef2703dda0905fb699f986dd714" title="Prideda namų darbo pažymį." alt="" coords="488,5,614,31"/>
+<area shape="poly" title=" " alt="" coords="317,250,332,210,358,152,397,92,421,64,448,40,475,28,471,31,452,44,425,68,401,95,363,155,337,212,322,253"/>
+<area shape="rect" href="class_studentas.html#a04c2d191c9d16630292b4a2851bfbbab" title="Išvalo namų darbų pažymių sąrašą." alt="" coords="484,55,617,80"/>
+<area shape="poly" title=" " alt="" coords="320,250,337,217,365,173,403,128,449,89,472,80,467,83,451,94,407,132,370,177,342,220,324,253"/>
+<area shape="rect" href="class_studentas.html#ab9dcc63a1ad95f1f34db3e5a96449720" title="Grąžina galutinį balą (medianos metodas)." alt="" coords="470,104,631,130"/>
+<area shape="poly" title=" " alt="" coords="324,250,373,196,409,165,449,139,463,134,459,137,451,143,412,169,377,199,328,254"/>
+<area shape="rect" href="class_studentas.html#a49a2519eb2a57b8c0b572cf414ccc3fc" title="Grąžina galutinį balą (vidurkio metodas)." alt="" coords="473,153,628,179"/>
+<area shape="poly" title=" " alt="" coords="334,249,385,218,449,188,471,183,466,185,451,193,388,223,337,254"/>
+<area shape="rect" href="class_studentas.html#a67cbc20c9554324502d140eb05370be8" title="Grąžina pavardę." alt="" coords="484,203,618,228"/>
+<area shape="poly" title=" " alt="" coords="379,249,473,231,468,233,380,254"/>
+<area shape="rect" href="class_studentas.html#ad7097a9d0431a41a0f0f63770ef6559d" title="Nustato egzamino balą." alt="" coords="486,252,615,278"/>
+<area shape="poly" title=" " alt="" coords="401,262,473,264,468,266,403,267"/>
+<area shape="rect" href="class_studentas.html#ae4c3b02e68af5ed87c68101ba699539c" title="Nustato pavardę." alt="" coords="474,301,628,327"/>
+<area shape="poly" title=" " alt="" coords="379,276,473,297,468,298,380,281"/>
+<area shape="rect" href="class_studentas.html#a6024e8fb5c3a9fbd48ca522f976f8465" title="Nustato vardą." alt="" coords="478,351,624,376"/>
+<area shape="poly" title=" " alt="" coords="336,276,388,306,451,337,471,346,466,346,449,342,385,311,336,281"/>
+<area shape="rect" href="class_studentas.html#ae71ca0b356510d5c7bd1e46d99c1f390" title="Apskaičiuoja galutinius balus pagal vidurkį ir medianą." alt="" coords="450,400,651,426"/>
+<area shape="poly" title=" " alt="" coords="327,275,377,330,412,361,451,387,464,394,458,394,449,391,409,365,373,334,325,281"/>
+<area shape="rect" href="func_8cpp.html#aa7299094f87ed196ae9e2f82a8bd6492" title=" " alt="" coords="501,449,600,475"/>
+<area shape="poly" title=" " alt="" coords="323,276,342,310,370,353,407,398,451,436,489,454,483,453,449,440,403,402,365,356,337,312,321,281"/>
+<area shape="rect" href="class_studentas.html#ac21ab5fa524d6d0a75ca4cbfa2df113c" title="Grąžina vardą." alt="" coords="487,499,614,524"/>
+<area shape="poly" title=" " alt="" coords="321,275,337,318,363,375,401,435,425,462,452,485,475,500,470,499,448,490,421,466,397,438,358,377,332,320,319,280"/>
+<area shape="rect" href="class_studentas.html#a5fde327b128bf9763233e09485d5cdaf" title="Grąžina egzamino balą." alt="" coords="699,252,809,278"/>
+<area shape="poly" title=" " alt="" coords="615,262,687,264,681,265,616,267"/>
+<area shape="rect" href="class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="705,325,803,351"/>
+<area shape="poly" title=" " alt="" coords="618,397,650,386,674,374,698,360,706,359,711,357,701,365,677,379,652,391,619,402"/>
+<area shape="rect" href="class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="710,375,798,400"/>
+<area shape="poly" title=" " alt="" coords="651,398,697,394,692,395,652,403"/>
+<area shape="rect" href="class_studentas.html#ae0b7a6f041dcef76de476950547c32c7" title="Grąžina namų darbų pažymių sąrašą." alt="" coords="703,424,805,450"/>
+<area shape="poly" title=" " alt="" coords="652,422,690,429,685,429,652,427"/>
+<area shape="rect" href="class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="708,473,800,499"/>
+<area shape="poly" title=" " alt="" coords="618,424,652,434,677,446,701,460,711,467,705,466,698,465,674,451,650,439,618,429"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a40b7ebdbf51d50cf667ffd4d4a87aaf6_icgraph.png" border="0" usemap="#afunc_8h_a40b7ebdbf51d50cf667ffd4d4a87aaf6_icgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a40b7ebdbf51d50cf667ffd4d4a87aaf6_icgraph" id="afunc_8h_a40b7ebdbf51d50cf667ffd4d4a87aaf6_icgraph">
+<area shape="rect" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant vektorių." alt="" coords="103,5,276,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="84,19,55,21,55,16,90,17"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -316,7 +508,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">double Mediana </td>
           <td>(</td>
-          <td class="paramtype">const Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -347,7 +539,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void Rezultatas </td>
           <td>(</td>
-          <td class="paramtype">Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -360,6 +552,32 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_af76875a84ab82e8aaeec74ef608f510d_cgraph.png" border="0" usemap="#afunc_8h_af76875a84ab82e8aaeec74ef608f510d_cgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_af76875a84ab82e8aaeec74ef608f510d_cgraph" id="afunc_8h_af76875a84ab82e8aaeec74ef608f510d_cgraph">
+<area shape="rect" title="Rikiuoja ir išveda rezultatus į konsolę arba failą." alt="" coords="5,80,90,106"/>
+<area shape="rect" href="class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="140,5,238,31"/>
+<area shape="poly" title=" " alt="" coords="70,77,136,40,148,37,143,40,139,45,73,82"/>
+<area shape="rect" href="class_vector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="138,55,241,80"/>
+<area shape="poly" title=" " alt="" coords="89,83,125,78,120,81,91,88"/>
+<area shape="rect" href="class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="145,104,234,130"/>
+<area shape="poly" title=" " alt="" coords="90,97,132,106,127,108,90,103"/>
+<area shape="rect" href="class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="144,153,235,179"/>
+<area shape="poly" title=" " alt="" coords="73,104,139,140,148,146,143,146,136,145,71,109"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_af76875a84ab82e8aaeec74ef608f510d_icgraph.png" border="0" usemap="#afunc_8h_af76875a84ab82e8aaeec74ef608f510d_icgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_af76875a84ab82e8aaeec74ef608f510d_icgraph" id="afunc_8h_af76875a84ab82e8aaeec74ef608f510d_icgraph">
+<area shape="rect" title="Rikiuoja ir išveda rezultatus į konsolę arba failą." alt="" coords="103,5,187,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="84,19,55,21,55,16,90,17"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -372,7 +590,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void RezultatasFailo </td>
           <td>(</td>
-          <td class="paramtype">Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -385,6 +603,32 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_ab3a1f658dc5d05e1c424d3fef00f5c5b_cgraph.png" border="0" usemap="#afunc_8h_ab3a1f658dc5d05e1c424d3fef00f5c5b_cgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_ab3a1f658dc5d05e1c424d3fef00f5c5b_cgraph" id="afunc_8h_ab3a1f658dc5d05e1c424d3fef00f5c5b_cgraph">
+<area shape="rect" title="Rikiuoja ir išveda rezultatus (abi galutinių balų versijas)." alt="" coords="5,80,118,106"/>
+<area shape="rect" href="class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="168,5,266,31"/>
+<area shape="poly" title=" " alt="" coords="88,77,164,40,176,37,172,39,167,45,91,82"/>
+<area shape="rect" href="class_vector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="166,55,269,80"/>
+<area shape="poly" title=" " alt="" coords="117,81,153,77,148,80,119,86"/>
+<area shape="rect" href="class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="173,104,262,130"/>
+<area shape="poly" title=" " alt="" coords="118,99,160,107,155,109,118,104"/>
+<area shape="rect" href="class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="172,153,263,179"/>
+<area shape="poly" title=" " alt="" coords="91,104,167,140,177,147,172,146,165,145,90,109"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_ab3a1f658dc5d05e1c424d3fef00f5c5b_icgraph.png" border="0" usemap="#afunc_8h_ab3a1f658dc5d05e1c424d3fef00f5c5b_icgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_ab3a1f658dc5d05e1c424d3fef00f5c5b_icgraph" id="afunc_8h_ab3a1f658dc5d05e1c424d3fef00f5c5b_icgraph">
+<area shape="rect" title="Rikiuoja ir išveda rezultatus (abi galutinių balų versijas)." alt="" coords="103,5,215,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="85,19,55,21,55,16,90,17"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -397,7 +641,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void Skaityti </td>
           <td>(</td>
-          <td class="paramtype">Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -410,6 +654,54 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a9ba478a809a27f12eb6e94d2bf8f2c50_cgraph.png" border="0" usemap="#afunc_8h_a9ba478a809a27f12eb6e94d2bf8f2c50_cgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a9ba478a809a27f12eb6e94d2bf8f2c50_cgraph" id="afunc_8h_a9ba478a809a27f12eb6e94d2bf8f2c50_cgraph">
+<area shape="rect" title="Interaktyviai skaito studentų duomenis iš konsolės." alt="" coords="5,255,71,280"/>
+<area shape="rect" href="class_studentas.html#aa1ca3ef2703dda0905fb699f986dd714" title="Prideda namų darbo pažymį." alt="" coords="156,5,282,31"/>
+<area shape="poly" title=" " alt="" coords="37,254,41,213,53,155,77,93,95,65,117,40,143,26,140,30,120,44,99,68,82,96,58,157,47,214,42,255"/>
+<area shape="rect" href="class_studentas.html#a04c2d191c9d16630292b4a2851bfbbab" title="Išvalo namų darbų pažymių sąrašą." alt="" coords="153,55,286,80"/>
+<area shape="poly" title=" " alt="" coords="39,254,46,220,60,176,83,129,98,108,117,89,140,77,137,82,120,94,102,111,87,132,65,178,51,222,44,255"/>
+<area shape="rect" href="class_studentas.html#a5fde327b128bf9763233e09485d5cdaf" title="Grąžina egzamino balą." alt="" coords="368,129,477,155"/>
+<area shape="poly" title=" " alt="" coords="47,253,76,221,96,204,117,190,177,167,239,152,299,144,355,141,350,144,300,149,240,157,178,172,120,195,99,208,80,225,51,256"/>
+<area shape="rect" href="class_studentas.html#ae0b7a6f041dcef76de476950547c32c7" title="Grąžina namų darbų pažymių sąrašą." alt="" coords="372,331,474,356"/>
+<area shape="poly" title=" " alt="" coords="70,276,119,290,245,316,359,334,354,337,244,321,118,295,72,281"/>
+<area shape="rect" href="class_studentas.html#a67cbc20c9554324502d140eb05370be8" title="Grąžina pavardę." alt="" coords="152,205,286,231"/>
+<area shape="poly" title=" " alt="" coords="70,255,118,240,147,233,143,237,119,245,73,259"/>
+<area shape="rect" href="class_vector.html#a8a99f38a10024ca8b4a9cc262d969f27" title="Prideda elementą kopijavimu." alt="" coords="154,255,284,280"/>
+<area shape="poly" title=" " alt="" coords="70,265,141,266,137,269,72,270"/>
+<area shape="rect" href="class_studentas.html#ad7097a9d0431a41a0f0f63770ef6559d" title="Nustato egzamino balą." alt="" coords="155,104,284,130"/>
+<area shape="poly" title=" " alt="" coords="42,253,69,202,91,172,117,147,142,134,139,138,120,151,95,176,74,205,47,255"/>
+<area shape="rect" href="class_studentas.html#ae4c3b02e68af5ed87c68101ba699539c" title="Nustato pavardę." alt="" coords="142,356,296,382"/>
+<area shape="poly" title=" " alt="" coords="51,278,82,307,120,335,151,349,146,351,117,339,78,311,51,283"/>
+<area shape="rect" href="class_studentas.html#a6024e8fb5c3a9fbd48ca522f976f8465" title="Nustato vardą." alt="" coords="146,405,292,431"/>
+<area shape="poly" title=" " alt="" coords="44,278,72,335,93,366,120,392,134,401,129,402,117,396,89,369,67,337,44,283"/>
+<area shape="rect" href="class_studentas.html#ae71ca0b356510d5c7bd1e46d99c1f390" title="Apskaičiuoja galutinius balus pagal vidurkį ir medianą." alt="" coords="119,455,320,480"/>
+<area shape="poly" title=" " alt="" coords="41,278,51,313,65,357,87,403,102,424,120,441,125,446,120,447,117,446,98,427,83,406,60,359,46,315,41,284"/>
+<area shape="rect" href="class_studentas.html#ac21ab5fa524d6d0a75ca4cbfa2df113c" title="Grąžina vardą." alt="" coords="156,504,283,530"/>
+<area shape="poly" title=" " alt="" coords="40,278,47,321,58,378,82,439,99,467,120,491,144,507,138,507,117,495,95,470,77,442,53,380,41,322,40,283"/>
+<area shape="poly" title=" " alt="" coords="283,122,355,132,350,135,285,127"/>
+<area shape="poly" title=" " alt="" coords="295,452,319,441,334,430,344,419,366,391,393,368,398,365,370,395,348,422,338,434,321,446,297,457"/>
+<area shape="rect" href="class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="374,504,472,530"/>
+<area shape="poly" title=" " alt="" coords="277,478,321,489,361,501,356,501,319,494,276,484"/>
+<area shape="rect" href="class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="378,405,467,431"/>
+<area shape="poly" title=" " alt="" coords="276,452,319,441,366,432,361,433,321,446,277,457"/>
+<area shape="rect" href="class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="377,455,468,480"/>
+<area shape="poly" title=" " alt="" coords="320,465,364,467,359,468,321,470"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a9ba478a809a27f12eb6e94d2bf8f2c50_icgraph.png" border="0" usemap="#afunc_8h_a9ba478a809a27f12eb6e94d2bf8f2c50_icgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a9ba478a809a27f12eb6e94d2bf8f2c50_icgraph" id="afunc_8h_a9ba478a809a27f12eb6e94d2bf8f2c50_icgraph">
+<area shape="rect" title="Interaktyviai skaito studentų duomenis iš konsolės." alt="" coords="103,5,168,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="84,19,55,21,55,16,89,17"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -422,7 +714,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void SkaitytiFaila </td>
           <td>(</td>
-          <td class="paramtype">Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -435,6 +727,48 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a8ca075da507301922d3f101597cba11f_cgraph.png" border="0" usemap="#afunc_8h_a8ca075da507301922d3f101597cba11f_cgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a8ca075da507301922d3f101597cba11f_cgraph" id="afunc_8h_a8ca075da507301922d3f101597cba11f_cgraph">
+<area shape="rect" title="Skaito studentų duomenis iš failo." alt="" coords="5,153,99,179"/>
+<area shape="rect" href="class_studentas.html#aa1ca3ef2703dda0905fb699f986dd714" title="Prideda namų darbo pažymį." alt="" coords="184,5,310,31"/>
+<area shape="poly" title=" " alt="" coords="57,152,89,97,114,66,145,40,171,29,168,33,148,44,118,70,94,100,62,154"/>
+<area shape="rect" href="class_studentas.html#a04c2d191c9d16630292b4a2851bfbbab" title="Išvalo namų darbų pažymių sąrašą." alt="" coords="181,55,314,80"/>
+<area shape="poly" title=" " alt="" coords="64,151,99,120,145,89,168,82,164,85,148,94,102,124,68,155"/>
+<area shape="rect" href="class_vector.html#a8a99f38a10024ca8b4a9cc262d969f27" title="Prideda elementą kopijavimu." alt="" coords="182,104,312,130"/>
+<area shape="poly" title=" " alt="" coords="98,151,146,138,177,132,173,136,147,143,101,156"/>
+<area shape="rect" href="class_studentas.html#ad7097a9d0431a41a0f0f63770ef6559d" title="Nustato egzamino balą." alt="" coords="183,153,312,179"/>
+<area shape="poly" title=" " alt="" coords="98,164,169,164,165,168,100,169"/>
+<area shape="rect" href="class_studentas.html#ae4c3b02e68af5ed87c68101ba699539c" title="Nustato pavardę." alt="" coords="170,203,324,228"/>
+<area shape="poly" title=" " alt="" coords="99,176,147,189,177,197,172,200,146,194,100,181"/>
+<area shape="rect" href="class_studentas.html#a6024e8fb5c3a9fbd48ca522f976f8465" title="Nustato vardą." alt="" coords="174,252,320,278"/>
+<area shape="poly" title=" " alt="" coords="66,177,102,208,148,238,162,246,157,247,145,243,99,213,66,182"/>
+<area shape="rect" href="class_studentas.html#ae71ca0b356510d5c7bd1e46d99c1f390" title="Apskaičiuoja galutinius balus pagal vidurkį ir medianą." alt="" coords="147,301,348,327"/>
+<area shape="poly" title=" " alt="" coords="60,177,94,232,118,262,148,288,156,294,151,294,145,292,114,266,89,235,59,182"/>
+<area shape="rect" href="class_studentas.html#a5fde327b128bf9763233e09485d5cdaf" title="Grąžina egzamino balą." alt="" coords="396,153,505,179"/>
+<area shape="poly" title=" " alt="" coords="312,164,383,165,378,167,313,169"/>
+<area shape="rect" href="class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="402,227,500,252"/>
+<area shape="poly" title=" " alt="" coords="314,298,347,288,371,275,395,261,402,260,407,258,397,266,374,280,349,293,316,303"/>
+<area shape="rect" href="class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="406,276,495,302"/>
+<area shape="poly" title=" " alt="" coords="348,299,394,296,388,297,349,304"/>
+<area shape="rect" href="class_studentas.html#ae0b7a6f041dcef76de476950547c32c7" title="Grąžina namų darbų pažymių sąrašą." alt="" coords="400,325,502,351"/>
+<area shape="poly" title=" " alt="" coords="348,323,387,330,381,331,348,329"/>
+<area shape="rect" href="class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="405,375,496,400"/>
+<area shape="poly" title=" " alt="" coords="286,325,401,368,395,369,285,330"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="func_8h_a8ca075da507301922d3f101597cba11f_icgraph.png" border="0" usemap="#afunc_8h_a8ca075da507301922d3f101597cba11f_icgraph" loading="lazy" alt=""/></div>
+<map name="afunc_8h_a8ca075da507301922d3f101597cba11f_icgraph" id="afunc_8h_a8ca075da507301922d3f101597cba11f_icgraph">
+<area shape="rect" title="Skaito studentų duomenis iš failo." alt="" coords="103,5,196,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="84,19,55,21,55,16,89,17"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -472,7 +806,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">double Vidurkis </td>
           <td>(</td>
-          <td class="paramtype">const Vector&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_vector.html">Vector</a>&lt; <a class="el" href="class_studentas.html">Studentas</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>X</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

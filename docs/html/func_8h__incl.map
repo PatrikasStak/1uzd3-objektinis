@@ -1,0 +1,9 @@
+<map id="func.h" name="func.h">
+<area shape="rect" id="Node000001" title="Pagalbinės funkcijos studentų duomenų valdymui." alt="" coords="22,5,80,31"/>
+<area shape="rect" id="Node000002" href="$_studentas_8h.html" title="Klasė, vaizduojanti studentą, paveldinti iš Zmogus." alt="" coords="5,79,97,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,29,54,63,48,63,51,34"/>
+<area shape="rect" id="Node000003" href="$_zmogus_8h.html" title="Abstrakti bazinė klasė, vaizduojanti žmogų." alt="" coords="11,153,91,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="52,102,54,137,48,137,50,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="28,226,74,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="53,176,54,211,48,210,49,181"/>
+</map>

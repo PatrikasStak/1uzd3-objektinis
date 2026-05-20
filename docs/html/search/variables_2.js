@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nd_5f_0',['nd_',['../class_studentas.html#aee61b15c07523a6fe0cda69c5089622c',1,'Studentas']]]
+  ['egz_5f_0',['egz_',['../class_studentas.html#a1d99507fca56727060b9b76a7a52f346',1,'Studentas']]]
 ];

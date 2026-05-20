@@ -5,5 +5,6 @@ var files_dup =
     [ "main.cpp", "main_8cpp.html", "main_8cpp" ],
     [ "Studentas.cpp", "_studentas_8cpp.html", "_studentas_8cpp" ],
     [ "Studentas.h", "_studentas_8h.html", "_studentas_8h" ],
+    [ "Vector.h", "_vector_8h.html", "_vector_8h" ],
     [ "Zmogus.h", "_zmogus_8h.html", "_zmogus_8h" ]
 ];

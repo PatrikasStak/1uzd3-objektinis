@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['rezultatas_0',['Rezultatas',['../func_8h.html#af76875a84ab82e8aaeec74ef608f510d',1,'Rezultatas(Vector&lt; Studentas &gt; &amp;X):&#160;func.cpp'],['../func_8cpp.html#af76875a84ab82e8aaeec74ef608f510d',1,'Rezultatas(Vector&lt; Studentas &gt; &amp;X):&#160;func.cpp']]],
-  ['rezultatasfailo_1',['RezultatasFailo',['../func_8h.html#ab3a1f658dc5d05e1c424d3fef00f5c5b',1,'RezultatasFailo(Vector&lt; Studentas &gt; &amp;X):&#160;func.cpp'],['../func_8cpp.html#ab3a1f658dc5d05e1c424d3fef00f5c5b',1,'RezultatasFailo(Vector&lt; Studentas &gt; &amp;X):&#160;func.cpp']]]
+  ['nd_0',['nd',['../class_studentas.html#ae0b7a6f041dcef76de476950547c32c7',1,'Studentas']]],
+  ['nd_5f_1',['nd_',['../class_studentas.html#aee61b15c07523a6fe0cda69c5089622c',1,'Studentas']]],
+  ['nextcap_2',['nextCap',['../class_vector.html#ae4c82ba2a92c030945cf4888c59ba1fd',1,'Vector']]]
 ];

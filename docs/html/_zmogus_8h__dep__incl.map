@@ -1,0 +1,13 @@
+<map id="Zmogus.h" name="Zmogus.h">
+<area shape="rect" id="Node000001" title="Abstrakti bazinė klasė, vaizduojanti žmogų." alt="" coords="70,5,150,31"/>
+<area shape="rect" id="Node000002" href="$_studentas_8h.html" title="Klasė, vaizduojanti studentą, paveldinti iš Zmogus." alt="" coords="64,79,156,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,44,113,79,107,78,109,49"/>
+<area shape="rect" id="Node000003" href="$_studentas_8cpp.html" title=" " alt="" coords="5,153,111,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,119,69,154,65,151,94,115"/>
+<area shape="rect" id="Node000004" href="$func_8h.html" title="Pagalbinės funkcijos studentų duomenų valdymui." alt="" coords="135,153,192,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="129,115,157,152,152,152,127,120"/>
+<area shape="rect" id="Node000005" href="$func_8cpp.html" title=" " alt="" coords="78,226,150,252"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="149,190,124,228,121,224,144,192"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html" title=" " alt="" coords="174,226,248,252"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="181,189,206,226,201,225,178,193"/>
+</map>

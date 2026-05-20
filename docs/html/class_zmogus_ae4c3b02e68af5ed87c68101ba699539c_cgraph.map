@@ -1,0 +1,5 @@
+<map id="Zmogus::setPavarde" name="Zmogus::setPavarde">
+<area shape="rect" id="Node000001" title="Nustato pavardę." alt="" coords="5,5,148,31"/>
+<area shape="rect" id="Node000002" href="$class_zmogus.html#a67cbc20c9554324502d140eb05370be8" title="Grąžina pavardę." alt="" coords="196,5,318,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,16,183,18,178,18,148,21"/>
+</map>

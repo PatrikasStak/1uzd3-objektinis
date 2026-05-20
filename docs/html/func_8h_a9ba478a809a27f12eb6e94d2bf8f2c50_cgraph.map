@@ -1,0 +1,33 @@
+<map id="Skaityti" name="Skaityti">
+<area shape="rect" id="Node000001" title="Interaktyviai skaito studentų duomenis iš konsolės." alt="" coords="5,255,71,280"/>
+<area shape="rect" id="Node000002" href="$class_studentas.html#aa1ca3ef2703dda0905fb699f986dd714" title="Prideda namų darbo pažymį." alt="" coords="156,5,282,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="37,254,41,213,53,155,77,93,95,65,117,40,143,26,140,30,120,44,99,68,82,96,58,157,47,214,42,255"/>
+<area shape="rect" id="Node000003" href="$class_studentas.html#a04c2d191c9d16630292b4a2851bfbbab" title="Išvalo namų darbų pažymių sąrašą." alt="" coords="153,55,286,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="39,254,46,220,60,176,83,129,98,108,117,89,140,77,137,82,120,94,102,111,87,132,65,178,51,222,44,255"/>
+<area shape="rect" id="Node000004" href="$class_studentas.html#a5fde327b128bf9763233e09485d5cdaf" title="Grąžina egzamino balą." alt="" coords="368,129,477,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="47,253,76,221,96,204,117,190,177,167,239,152,299,144,355,141,350,144,300,149,240,157,178,172,120,195,99,208,80,225,51,256"/>
+<area shape="rect" id="Node000005" href="$class_studentas.html#ae0b7a6f041dcef76de476950547c32c7" title="Grąžina namų darbų pažymių sąrašą." alt="" coords="372,331,474,356"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="70,276,119,290,245,316,359,334,354,337,244,321,118,295,72,281"/>
+<area shape="rect" id="Node000006" href="$class_studentas.html#a67cbc20c9554324502d140eb05370be8" title="Grąžina pavardę." alt="" coords="152,205,286,231"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="70,255,118,240,147,233,143,237,119,245,73,259"/>
+<area shape="rect" id="Node000007" href="$class_vector.html#a8a99f38a10024ca8b4a9cc262d969f27" title="Prideda elementą kopijavimu." alt="" coords="154,255,284,280"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="70,265,141,266,137,269,72,270"/>
+<area shape="rect" id="Node000008" href="$class_studentas.html#ad7097a9d0431a41a0f0f63770ef6559d" title="Nustato egzamino balą." alt="" coords="155,104,284,130"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="42,253,69,202,91,172,117,147,142,134,139,138,120,151,95,176,74,205,47,255"/>
+<area shape="rect" id="Node000009" href="$class_studentas.html#ae4c3b02e68af5ed87c68101ba699539c" title="Nustato pavardę." alt="" coords="142,356,296,382"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="51,278,82,307,120,335,151,349,146,351,117,339,78,311,51,283"/>
+<area shape="rect" id="Node000010" href="$class_studentas.html#a6024e8fb5c3a9fbd48ca522f976f8465" title="Nustato vardą." alt="" coords="146,405,292,431"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="44,278,72,335,93,366,120,392,134,401,129,402,117,396,89,369,67,337,44,283"/>
+<area shape="rect" id="Node000011" href="$class_studentas.html#ae71ca0b356510d5c7bd1e46d99c1f390" title="Apskaičiuoja galutinius balus pagal vidurkį ir medianą." alt="" coords="119,455,320,480"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="41,278,51,313,65,357,87,403,102,424,120,441,125,446,120,447,117,446,98,427,83,406,60,359,46,315,41,284"/>
+<area shape="rect" id="Node000015" href="$class_studentas.html#ac21ab5fa524d6d0a75ca4cbfa2df113c" title="Grąžina vardą." alt="" coords="156,504,283,530"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="40,278,47,321,58,378,82,439,99,467,120,491,144,507,138,507,117,495,95,470,77,442,53,380,41,322,40,283"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="283,122,355,132,350,135,285,127"/>
+<area shape="poly" id="edge14_Node000011_Node000005" title=" " alt="" coords="295,452,319,441,334,430,344,419,366,391,393,368,398,365,370,395,348,422,338,434,321,446,297,457"/>
+<area shape="rect" id="Node000012" href="$class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="374,504,472,530"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="277,478,321,489,361,501,356,501,319,494,276,484"/>
+<area shape="rect" id="Node000013" href="$class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="378,405,467,431"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="276,452,319,441,366,432,361,433,321,446,277,457"/>
+<area shape="rect" id="Node000014" href="$class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="377,455,468,480"/>
+<area shape="poly" id="edge15_Node000011_Node000014" title=" " alt="" coords="320,465,364,467,359,468,321,470"/>
+</map>

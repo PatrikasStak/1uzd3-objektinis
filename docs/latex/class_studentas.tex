@@ -9,10 +9,22 @@ Vaizduoja studentą su namų darbų pažymiais ir galutiniu balu.
 
 {\ttfamily \+\#include $<$Studentas.\+h$>$}
 
-Inheritance diagram for Studentas:\+\begin{figure}[H]
+
+
+Inheritance diagram for Studentas:\+\nopagebreak
+\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[height=2.000000cm]{class_studentas}
+\includegraphics[width=140pt]{class_studentas__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Studentas:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_studentas__coll__graph}
 \end{center}
 \end{figure}
 \doxysubsubsection*{Public Member Functions}
@@ -32,7 +44,7 @@ Inheritance diagram for Studentas:\+\begin{figure}[H]
 \begin{DoxyCompactList}\small\item\em Perkėlimo priskyrimo operatorius. \end{DoxyCompactList}\item 
 \doxymbox{\hyperlink{class_studentas_a63e449e0f51a0b14340d02ee71b4be23}{\texorpdfstring{$\sim$}{\string~}\+Studentas}} ()
 \begin{DoxyCompactList}\small\item\em Destruktorius — išvalo visus laukus. \end{DoxyCompactList}\item 
-const Vector$<$ int $>$ \& \doxymbox{\hyperlink{class_studentas_ae0b7a6f041dcef76de476950547c32c7}{nd}} () const
+const \doxymbox{\hyperlink{class_vector}{Vector}}$<$ int $>$ \& \doxymbox{\hyperlink{class_studentas_ae0b7a6f041dcef76de476950547c32c7}{nd}} () const
 \begin{DoxyCompactList}\small\item\em Grąžina namų darbų pažymių sąrašą. \end{DoxyCompactList}\item 
 int \doxymbox{\hyperlink{class_studentas_a5fde327b128bf9763233e09485d5cdaf}{egz}} () const
 \begin{DoxyCompactList}\small\item\em Grąžina egzamino balą. \end{DoxyCompactList}\item 
@@ -78,7 +90,7 @@ void \doxymbox{\hyperlink{class_zmogus_ae4c3b02e68af5ed87c68101ba699539c}{set\+P
 \doxysubsubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
-Vector$<$ int $>$ \doxymbox{\hyperlink{class_studentas_aee61b15c07523a6fe0cda69c5089622c}{nd\+\_\+}}
+\doxymbox{\hyperlink{class_vector}{Vector}}$<$ int $>$ \doxymbox{\hyperlink{class_studentas_aee61b15c07523a6fe0cda69c5089622c}{nd\+\_\+}}
 \begin{DoxyCompactList}\small\item\em Namų darbų pažymiai. \end{DoxyCompactList}\item 
 int \doxymbox{\hyperlink{class_studentas_a1d99507fca56727060b9b76a7a52f346}{egz\+\_\+}}
 \begin{DoxyCompactList}\small\item\em Egzamino balas. \end{DoxyCompactList}\item 
@@ -128,6 +140,20 @@ Studentas::\+\+Studentas (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
 
 Numatytasis konstruktorius — sukuria tuščią studentą. 
 
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{class_studentas_ab459e995e8c9b24cdc9aec5b09a66539_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_studentas_ab459e995e8c9b24cdc9aec5b09a66539_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a7b3f3a8f6acc9d3d18d8682502a80c29}\index{Studentas@{Studentas}!Studentas@{Studentas}}
 \index{Studentas@{Studentas}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{Studentas()}{Studentas()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
@@ -145,6 +171,13 @@ Konstruktorius su vardu ir pavarde.
 {\em pavarde} & Studento pavardė \\
 \hline
 \end{DoxyParams}
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_studentas_a7b3f3a8f6acc9d3d18d8682502a80c29_cgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_aef0484fe46cf05746f8ffc0d083fcf3e}\index{Studentas@{Studentas}!Studentas@{Studentas}}
 \index{Studentas@{Studentas}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{Studentas()}{Studentas()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
@@ -160,6 +193,13 @@ Kopijavimo konstruktorius.
 {\em other} & Kopijuojamas objektas \\
 \hline
 \end{DoxyParams}
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_aef0484fe46cf05746f8ffc0d083fcf3e_cgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a732b15e3745fa8e35ff0002cfc4b73b5}\index{Studentas@{Studentas}!Studentas@{Studentas}}
 \index{Studentas@{Studentas}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{Studentas()}{Studentas()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
@@ -175,6 +215,13 @@ Perkėlimo konstruktorius.
 {\em other} & Perkeliamas objektas (paliekamas tuščias) \\
 \hline
 \end{DoxyParams}
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_a732b15e3745fa8e35ff0002cfc4b73b5_cgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a63e449e0f51a0b14340d02ee71b4be23}\index{Studentas@{Studentas}!````~Studentas@{\texorpdfstring{$\sim$}{\string~}Studentas}}
 \index{````~Studentas@{\texorpdfstring{$\sim$}{\string~}Studentas}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Studentas()}{\string~Studentas()}}
@@ -205,6 +252,13 @@ Prideda namų darbo pažymį.
 {\em pazymys} & Pažymys (0–10) \\
 \hline
 \end{DoxyParams}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_aa1ca3ef2703dda0905fb699f986dd714_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a04c2d191c9d16630292b4a2851bfbbab}\index{Studentas@{Studentas}!clearNd@{clearNd}}
 \index{clearNd@{clearNd}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{clearNd()}{clearNd()}}
@@ -215,6 +269,13 @@ void Studentas::\+clear\+Nd (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})
 
 Išvalo namų darbų pažymių sąrašą. 
 
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_a04c2d191c9d16630292b4a2851bfbbab_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a5fde327b128bf9763233e09485d5cdaf}\index{Studentas@{Studentas}!egz@{egz}}
 \index{egz@{egz}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{egz()}{egz()}}
@@ -228,6 +289,13 @@ Grąžina egzamino balą.
 \begin{DoxyReturn}{Returns}
 Egzamino balas 
 \end{DoxyReturn}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_a5fde327b128bf9763233e09485d5cdaf_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_ab9dcc63a1ad95f1f34db3e5a96449720}\index{Studentas@{Studentas}!galutinisMed@{galutinisMed}}
 \index{galutinisMed@{galutinisMed}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{galutinisMed()}{galutinisMed()}}
@@ -241,6 +309,13 @@ Grąžina galutinį balą (medianos metodas).
 \begin{DoxyReturn}{Returns}
 Galutinis medianos balas 
 \end{DoxyReturn}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_ab9dcc63a1ad95f1f34db3e5a96449720_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a49a2519eb2a57b8c0b572cf414ccc3fc}\index{Studentas@{Studentas}!galutinisVid@{galutinisVid}}
 \index{galutinisVid@{galutinisVid}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{galutinisVid()}{galutinisVid()}}
@@ -254,11 +329,18 @@ Grąžina galutinį balą (vidurkio metodas).
 \begin{DoxyReturn}{Returns}
 Galutinis vidurkio balas 
 \end{DoxyReturn}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_a49a2519eb2a57b8c0b572cf414ccc3fc_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_ae0b7a6f041dcef76de476950547c32c7}\index{Studentas@{Studentas}!nd@{nd}}
 \index{nd@{nd}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{nd()}{nd()}}
 {\footnotesize\ttfamily \label{class_studentas_ae0b7a6f041dcef76de476950547c32c7} 
-const Vector$<$ int $>$ \& Studentas::\+nd (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+const \doxymbox{\hyperlink{class_vector}{Vector}}$<$ int $>$ \& Studentas::\+nd (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
@@ -267,6 +349,13 @@ Grąžina namų darbų pažymių sąrašą.
 \begin{DoxyReturn}{Returns}
 Const nuoroda į pažymių vektorių 
 \end{DoxyReturn}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_ae0b7a6f041dcef76de476950547c32c7_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a25bcc531503d3bc490dab4a656e3b8e9}\index{Studentas@{Studentas}!operator=@{operator=}}
 \index{operator=@{operator=}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
@@ -285,6 +374,13 @@ Kopijavimo priskyrimo operatorius.
 \begin{DoxyReturn}{Returns}
 Nuoroda į šį objektą 
 \end{DoxyReturn}
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_a25bcc531503d3bc490dab4a656e3b8e9_cgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a6379482d741209e9a2d902023676fb45}\index{Studentas@{Studentas}!operator=@{operator=}}
 \index{operator=@{operator=}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
@@ -303,6 +399,13 @@ Perkėlimo priskyrimo operatorius.
 \begin{DoxyReturn}{Returns}
 Nuoroda į šį objektą 
 \end{DoxyReturn}
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_a6379482d741209e9a2d902023676fb45_cgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a67cbc20c9554324502d140eb05370be8}\index{Studentas@{Studentas}!pavarde@{pavarde}}
 \index{pavarde@{pavarde}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{pavarde()}{pavarde()}}
@@ -316,6 +419,13 @@ Grąžina pavardę.
 \begin{DoxyReturn}{Returns}
 Nuoroda į pavardę 
 \end{DoxyReturn}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_a67cbc20c9554324502d140eb05370be8_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_ad7097a9d0431a41a0f0f63770ef6559d}\index{Studentas@{Studentas}!setEgz@{setEgz}}
 \index{setEgz@{setEgz}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{setEgz()}{setEgz()}}
@@ -331,6 +441,20 @@ Nustato egzamino balą.
 {\em egz} & Naujas egzamino balas \\
 \hline
 \end{DoxyParams}
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{class_studentas_ad7097a9d0431a41a0f0f63770ef6559d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_ad7097a9d0431a41a0f0f63770ef6559d_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_ad775abef82e669d16ff2858b51488b7e}\index{Studentas@{Studentas}!setGalutinisMed@{setGalutinisMed}}
 \index{setGalutinisMed@{setGalutinisMed}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{setGalutinisMed()}{setGalutinisMed()}}
@@ -376,6 +500,13 @@ Nustato pavardę.
 {\em pavarde} & Nauja pavardė \\
 \hline
 \end{DoxyParams}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_ae4c3b02e68af5ed87c68101ba699539c_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_a6024e8fb5c3a9fbd48ca522f976f8465}\index{Studentas@{Studentas}!setVardas@{setVardas}}
 \index{setVardas@{setVardas}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{setVardas()}{setVardas()}}
@@ -391,6 +522,13 @@ Nustato vardą.
 {\em vardas} & Naujas vardas \\
 \hline
 \end{DoxyParams}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_a6024e8fb5c3a9fbd48ca522f976f8465_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_studentas_ae71ca0b356510d5c7bd1e46d99c1f390}\index{Studentas@{Studentas}!skaiciuotiGalutinius@{skaiciuotiGalutinius}}
 \index{skaiciuotiGalutinius@{skaiciuotiGalutinius}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{skaiciuotiGalutinius()}{skaiciuotiGalutinius()}}
@@ -401,7 +539,21 @@ void Studentas::\+skaiciuoti\+Galutinius (\begin{DoxyParamCaption}{}{}\end{DoxyP
 
 Apskaičiuoja galutinius balus pagal vidurkį ir medianą. 
 
-Formulė:\+ galutinis = ND\+\_\+vidurkis \texorpdfstring{$\ast$}{*} 0.\+4 + egzaminas \texorpdfstring{$\ast$}{*} 0.\+6 \Hypertarget{class_studentas_a9f5eaeb4fb7c599a93ec0d516f771c7b}\index{Studentas@{Studentas}!tipas@{tipas}}
+Formulė:\+ galutinis = ND\+\_\+vidurkis \texorpdfstring{$\ast$}{*} 0.\+4 + egzaminas \texorpdfstring{$\ast$}{*} 0.\+6 Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_studentas_ae71ca0b356510d5c7bd1e46d99c1f390_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_ae71ca0b356510d5c7bd1e46d99c1f390_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_studentas_a9f5eaeb4fb7c599a93ec0d516f771c7b}\index{Studentas@{Studentas}!tipas@{tipas}}
 \index{tipas@{tipas}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{tipas()}{tipas()}}
 {\footnotesize\ttfamily \label{class_studentas_a9f5eaeb4fb7c599a93ec0d516f771c7b} 
@@ -431,6 +583,13 @@ Grąžina vardą.
 \begin{DoxyReturn}{Returns}
 Nuoroda į vardą 
 \end{DoxyReturn}
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_studentas_ac21ab5fa524d6d0a75ca4cbfa2df113c_icgraph}
+\end{center}
+\end{figure}
 
 
 \label{class_studentas_doc-related-members}
@@ -515,7 +674,7 @@ Galutinis balas (vidurkio metodas).
 \index{nd\_@{nd\_}!Studentas@{Studentas}}
 \doxysubsubsection{\texorpdfstring{nd\_}{nd\_}}
 {\footnotesize\ttfamily \label{class_studentas_aee61b15c07523a6fe0cda69c5089622c} 
-Vector$<$int$>$ Studentas::\+nd\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+\doxymbox{\hyperlink{class_vector}{Vector}}$<$int$>$ Studentas::\+nd\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
 
 
 

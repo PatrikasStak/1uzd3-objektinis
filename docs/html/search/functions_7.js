@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['operator_3c_3c_0',['operator&lt;&lt;',['../_studentas_8cpp.html#ad7b2b41ad34e122a86c8aca0a91249e8',1,'Studentas.cpp']]],
-  ['operator_3d_1',['operator=',['../class_studentas.html#a25bcc531503d3bc490dab4a656e3b8e9',1,'Studentas::operator=(const Studentas &amp;other)'],['../class_studentas.html#a6379482d741209e9a2d902023676fb45',1,'Studentas::operator=(Studentas &amp;&amp;other) noexcept']]],
-  ['operator_3e_3e_2',['operator&gt;&gt;',['../_studentas_8cpp.html#a3bf7658776e3c30f6653378b3dc0d4a2',1,'Studentas.cpp']]]
+  ['insert_0',['insert',['../class_vector.html#ab1d741e1eb8100a5ef1ca968833f1c98',1,'Vector::insert(const_iterator pos, const T &amp;val)'],['../class_vector.html#a2d4d6659e04d80908f1f4e5ab7cf2190',1,'Vector::insert(const_iterator pos, T &amp;&amp;val)'],['../class_vector.html#a795fe80ff8712f5ea0cbc1383a5cfaab',1,'Vector::insert(const_iterator pos, size_type n, const T &amp;val)'],['../class_vector.html#af5b5a20b3fd128030806b9f46b83f0a1',1,'Vector::insert(const_iterator pos, InputIt first, InputIt last)'],['../class_vector.html#af32b1796d685f9d417e4976e9f4574b4',1,'Vector::insert(const_iterator pos, std::initializer_list&lt; T &gt; il)']]],
+  ['iterator_1',['iterator',['../class_vector_1_1iterator.html#aa55d1ce12e2010c1bd9aa1d10fd554f4',1,'Vector::iterator::iterator()'],['../class_vector_1_1iterator.html#a736940e9500a43fccbfa5998f0d93400',1,'Vector::iterator::iterator(T *p)']]]
 ];

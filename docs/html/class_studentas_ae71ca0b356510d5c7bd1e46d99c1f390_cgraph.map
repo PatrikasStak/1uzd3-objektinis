@@ -1,0 +1,11 @@
+<map id="Studentas::skaiciuotiGalutinius" name="Studentas::skaiciuotiGalutinius">
+<area shape="rect" id="Node000001" title="Apskaičiuoja galutinius balus pagal vidurkį ir medianą." alt="" coords="5,80,207,106"/>
+<area shape="rect" id="Node000002" href="$class_vector.html#a466e8c045ea10d62c28b689888e9fe5a" title=" " alt="" coords="257,5,355,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,77,257,35,253,39,144,82"/>
+<area shape="rect" id="Node000003" href="$class_vector.html#ae288fa619188bff101d5300b8aaf9a90" title=" " alt="" coords="262,55,350,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,77,249,74,244,76,208,83"/>
+<area shape="rect" id="Node000004" href="$class_studentas.html#ae0b7a6f041dcef76de476950547c32c7" title="Grąžina namų darbų pažymių sąrašą." alt="" coords="255,104,357,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,102,242,108,237,109,207,108"/>
+<area shape="rect" id="Node000005" href="$class_vector.html#a9e7e854146e2b56c2c7149eddbc0a1e8" title=" " alt="" coords="260,153,352,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="144,104,256,146,252,149,143,109"/>
+</map>

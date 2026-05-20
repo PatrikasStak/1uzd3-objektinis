@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['studentdeque_0',['StudentDeque',['../func_8h.html#a9f81074915414e1f33a75746a908a47a',1,'func.h']]],
-  ['studentlist_1',['StudentList',['../func_8h.html#a10ba95eadaa51ba1f7a2c9ddebff0971',1,'func.h']]],
-  ['studentvec_2',['StudentVec',['../func_8h.html#aeff885154ae3c86afd7118a207624b2d',1,'func.h']]]
+  ['const_5fpointer_0',['const_pointer',['../class_vector.html#a73a3f690033d0e8491c8cb4e7a4b4323',1,'Vector']]],
+  ['const_5freference_1',['const_reference',['../class_vector.html#aa39e5e374ab0131fb5498ab74802174f',1,'Vector']]],
+  ['const_5freverse_5fiterator_2',['const_reverse_iterator',['../class_vector.html#a830f097cd0cf82deebdaa63a04d5ade6',1,'Vector']]]
 ];

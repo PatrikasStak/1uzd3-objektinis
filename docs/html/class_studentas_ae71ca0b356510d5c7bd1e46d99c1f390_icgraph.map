@@ -1,0 +1,23 @@
+<map id="Studentas::skaiciuotiGalutinius" name="Studentas::skaiciuotiGalutinius">
+<area shape="rect" id="Node000001" title="Apskaičiuoja galutinius balus pagal vidurkį ir medianą." alt="" coords="562,128,764,154"/>
+<area shape="rect" id="Node000002" href="$func_8cpp.html#ae8fb2176021e870e726fb2c9890cacff" title=" " alt="" coords="339,53,514,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="608,122,514,93,478,82,478,77,515,88,613,122"/>
+<area shape="rect" id="Node000007" href="$class_studentas.html#a3bf7658776e3c30f6653378b3dc0d4a2" title="Įveda studento duomenis iš srauto." alt="" coords="351,103,502,128"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="544,129,503,126,503,121,550,128"/>
+<area shape="rect" id="Node000008" href="$func_8cpp.html#a9ba478a809a27f12eb6e94d2bf8f2c50" title="Interaktyviai skaito studentų duomenis iš konsolės." alt="" coords="164,153,230,179"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="547,150,230,167,230,162,548,144"/>
+<area shape="rect" id="Node000009" href="$func_8cpp.html#a8ca075da507301922d3f101597cba11f" title="Skaito studentų duomenis iš failo." alt="" coords="380,204,473,230"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="609,159,470,206,469,201,604,159"/>
+<area shape="rect" id="Node000003" href="$func_8cpp.html#a5733e1d54583e68a65a2ae918a418a1e" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant deką." alt="" coords="103,5,291,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,50,262,34,262,29,349,49"/>
+<area shape="rect" id="Node000005" href="$func_8cpp.html#a9412417c1f3f8e496908b58e86223c68" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant sąrašą." alt="" coords="111,55,282,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="321,68,284,70,282,64,326,66"/>
+<area shape="rect" id="Node000006" href="$func_8cpp.html#a40b7ebdbf51d50cf667ffd4d4a87aaf6" title="Nuskaito, rikiuoja ir skirsto studentus iš failo naudojant vektorių." alt="" coords="110,104,284,130"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="348,84,259,106,258,101,353,82"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,104,55,130"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,39,104,44,68,74,43,105,38,102,64,71,101,40,114,35"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="123,87,103,94,56,110,53,106,102,89,128,83"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="92,119,56,119,54,114,96,115"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="146,156,102,145,55,128,55,123,103,140,151,154"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="367,224,307,230,240,228,169,217,102,194,81,181,63,164,39,133,40,128,67,161,84,177,104,189,170,212,240,222,307,225,362,225"/>
+</map>

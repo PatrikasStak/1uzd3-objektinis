@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['galutinismed_0',['galutinisMed',['../class_studentas.html#ab9dcc63a1ad95f1f34db3e5a96449720',1,'Studentas']]],
-  ['galutinisvid_1',['galutinisVid',['../class_studentas.html#a49a2519eb2a57b8c0b572cf414ccc3fc',1,'Studentas']]],
-  ['generuoturusiavimasdeque_2',['GeneruotuRusiavimasDeque',['../func_8h.html#a5733e1d54583e68a65a2ae918a418a1e',1,'GeneruotuRusiavimasDeque(const std::string &amp;path):&#160;func.cpp'],['../func_8cpp.html#a5733e1d54583e68a65a2ae918a418a1e',1,'GeneruotuRusiavimasDeque(const std::string &amp;path):&#160;func.cpp']]],
-  ['generuoturusiavimasimpl_3',['GeneruotuRusiavimasImpl',['../func_8cpp.html#ae8fb2176021e870e726fb2c9890cacff',1,'func.cpp']]],
-  ['generuoturusiavimaslist_4',['GeneruotuRusiavimasList',['../func_8h.html#a9412417c1f3f8e496908b58e86223c68',1,'GeneruotuRusiavimasList(const std::string &amp;path):&#160;func.cpp'],['../func_8cpp.html#a9412417c1f3f8e496908b58e86223c68',1,'GeneruotuRusiavimasList(const std::string &amp;path):&#160;func.cpp']]],
-  ['generuoturusiavimasvec_5',['GeneruotuRusiavimasVec',['../func_8h.html#a40b7ebdbf51d50cf667ffd4d4a87aaf6',1,'GeneruotuRusiavimasVec(const std::string &amp;path):&#160;func.cpp'],['../func_8cpp.html#a40b7ebdbf51d50cf667ffd4d4a87aaf6',1,'GeneruotuRusiavimasVec(const std::string &amp;path):&#160;func.cpp']]]
+  ['egz_0',['egz',['../class_studentas.html#a5fde327b128bf9763233e09485d5cdaf',1,'Studentas']]],
+  ['emplace_1',['emplace',['../class_vector.html#a6e7596194e3dc0ddc289017df291e179',1,'Vector']]],
+  ['emplace_5fback_2',['emplace_back',['../class_vector.html#a14c322c13e01c8556d2e8f4bd8bea1ad',1,'Vector']]],
+  ['empty_3',['empty',['../class_vector.html#ad688a8a0dfbd07ea63d838058a436f79',1,'Vector']]],
+  ['end_4',['end',['../class_vector.html#ae288fa619188bff101d5300b8aaf9a90',1,'Vector::end()'],['../class_vector.html#a3f5f39e8ec9f506664b259299e79c485',1,'Vector::end() const']]],
+  ['erase_5',['erase',['../class_vector.html#ada08ce2d41733da63bdeac9901d48a74',1,'Vector::erase(const_iterator pos)'],['../class_vector.html#a4c79ccc14e48bf7efed8d57233b1d3ff',1,'Vector::erase(const_iterator first, const_iterator last)']]]
 ];

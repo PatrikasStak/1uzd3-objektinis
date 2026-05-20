@@ -1,0 +1,412 @@
+\doxysection{Vector\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}::\+iterator Class Reference}
+\hypertarget{class_vector_1_1iterator}{}\label{class_vector_1_1iterator}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+
+
+{\ttfamily \+\#include $<$Vector.\+h$>$}
+
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \doxymbox{\hyperlink{class_vector_1_1iterator_a4dde1b1cfe0497980f3e7c77176de92b}{iterator\+\_\+category}} = std::\+random\+\_\+access\+\_\+iterator\+\_\+tag
+\item 
+using \doxymbox{\hyperlink{class_vector_1_1iterator_ac30bcf229f0881012c24786ba5947832}{value\+\_\+type}} = T
+\item 
+using \doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} = std::\+ptrdiff\+\_\+t
+\item 
+using \doxymbox{\hyperlink{class_vector_1_1iterator_a795bfdc451d5be1c0cdf86fa37306ae5}{pointer}} = T\texorpdfstring{$\ast$}{*}
+\item 
+using \doxymbox{\hyperlink{class_vector_1_1iterator_aea498e32440ffbc6ec81f42888fa50ca}{reference}} = T\&
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} ()
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_a736940e9500a43fccbfa5998f0d93400}{iterator}} (T \texorpdfstring{$\ast$}{*}p)
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aea498e32440ffbc6ec81f42888fa50ca}{reference}} \doxymbox{\hyperlink{class_vector_1_1iterator_ade69ab239660c15ebae62167fc7d5ba9}{operator\texorpdfstring{$\ast$}{*}}} () const
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_a795bfdc451d5be1c0cdf86fa37306ae5}{pointer}} \doxymbox{\hyperlink{class_vector_1_1iterator_a1ec5b43d776759e0d75967dae7525ce8}{operator-\/$>$}} () const
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aea498e32440ffbc6ec81f42888fa50ca}{reference}} \doxymbox{\hyperlink{class_vector_1_1iterator_ad1d86fc18f141b310e5ac42c4250f1b4}{operator\+[$\,$]\+}} (\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} n) const
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \& \doxymbox{\hyperlink{class_vector_1_1iterator_a36eadbfbb4ea68cdae907da2a1ee57dd}{operator++}} ()
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector_1_1iterator_ac67c9225a0971d334d02246291922539}{operator++}} (int)
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \& \doxymbox{\hyperlink{class_vector_1_1iterator_ae8c617f755ad6cc350e96b48c4e48905}{operator-\/-\/}} ()
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector_1_1iterator_a4bbb51eb646080bf397665d903ad94d7}{operator-\/-\/}} (int)
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \& \doxymbox{\hyperlink{class_vector_1_1iterator_aa9be6b89075f1de853f269c5d1941211}{operator+=}} (\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} n)
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \& \doxymbox{\hyperlink{class_vector_1_1iterator_a01adceae833f418573f2e4786cd6727e}{operator-\/=}} (\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} n)
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector_1_1iterator_ae9fd2786a7f21d5e7c9120542b0a1312}{operator+}} (\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} n) const
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector_1_1iterator_abbb2a8944e8d2040dbcf29510757af5b}{operator-\/}} (\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} n) const
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} \doxymbox{\hyperlink{class_vector_1_1iterator_a86ed7190646c2bf79eca69571f3699d6}{operator-\/}} (const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&o) const
+\item 
+bool \doxymbox{\hyperlink{class_vector_1_1iterator_ae99bebb5779b66683c40b1a6ffc50094}{operator==}} (const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&o) const
+\item 
+bool \doxymbox{\hyperlink{class_vector_1_1iterator_a4a7f03c8a2bf3810495a22b73aff84cb}{operator!=}} (const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&o) const
+\item 
+bool \doxymbox{\hyperlink{class_vector_1_1iterator_a489c98f0a159ec6a88432376370ce7e0}{operator$<$}} (const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&o) const
+\item 
+bool \doxymbox{\hyperlink{class_vector_1_1iterator_a45a94fa143ef8b59460bb4da10a50cef}{operator$<$=}} (const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&o) const
+\item 
+bool \doxymbox{\hyperlink{class_vector_1_1iterator_a597e3b65e2c78b14b1ff9da61fc76ccc}{operator$>$}} (const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&o) const
+\item 
+bool \doxymbox{\hyperlink{class_vector_1_1iterator_a111320ce67f0b15ff2ee9d39d3173c7e}{operator$>$=}} (const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&o) const
+\item 
+T \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_vector_1_1iterator_aadb10d875be4a7d0f7f44f3df06ab289}{base}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_vector_1_1iterator_a0d698cf230551bcdb73fed87d1b2eb9b}{ptr}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector_1_1iterator_a306aa85f9a1b94a837514fe26c897d70}{operator+}} (\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} n, const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&it)
+\end{DoxyCompactItemize}
+
+
+\label{class_vector_1_1iterator_doc-typedef-members}
+\Hypertarget{class_vector_1_1iterator_doc-typedef-members}
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!difference\_type@{difference\_type}}
+\index{difference\_type@{difference\_type}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{difference\_type}{difference\_type}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59} 
+template$<$typename T$>$ \\
+using \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+difference\+\_\+type = std::\+ptrdiff\+\_\+t}
+
+\Hypertarget{class_vector_1_1iterator_a4dde1b1cfe0497980f3e7c77176de92b}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!iterator\_category@{iterator\_category}}
+\index{iterator\_category@{iterator\_category}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{iterator\_category}{iterator\_category}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a4dde1b1cfe0497980f3e7c77176de92b} 
+template$<$typename T$>$ \\
+using \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+iterator\+\_\+category = std::\+random\+\_\+access\+\_\+iterator\+\_\+tag}
+
+\Hypertarget{class_vector_1_1iterator_a795bfdc451d5be1c0cdf86fa37306ae5}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!pointer@{pointer}}
+\index{pointer@{pointer}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{pointer}{pointer}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a795bfdc451d5be1c0cdf86fa37306ae5} 
+template$<$typename T$>$ \\
+using \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+pointer = T\texorpdfstring{$\ast$}{*}}
+
+\Hypertarget{class_vector_1_1iterator_aea498e32440ffbc6ec81f42888fa50ca}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!reference@{reference}}
+\index{reference@{reference}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{reference}{reference}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_aea498e32440ffbc6ec81f42888fa50ca} 
+template$<$typename T$>$ \\
+using \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+reference = T\&}
+
+\Hypertarget{class_vector_1_1iterator_ac30bcf229f0881012c24786ba5947832}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!value\_type@{value\_type}}
+\index{value\_type@{value\_type}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{value\_type}{value\_type}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_ac30bcf229f0881012c24786ba5947832} 
+template$<$typename T$>$ \\
+using \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+value\+\_\+type = T}
+
+
+
+\label{class_vector_1_1iterator_doc-constructors}
+\Hypertarget{class_vector_1_1iterator_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!iterator@{iterator}}
+\index{iterator@{iterator}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{iterator()}{iterator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+iterator (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a736940e9500a43fccbfa5998f0d93400}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!iterator@{iterator}}
+\index{iterator@{iterator}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{iterator()}{iterator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a736940e9500a43fccbfa5998f0d93400} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+iterator (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}}]{p}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+\label{class_vector_1_1iterator_doc-func-members}
+\Hypertarget{class_vector_1_1iterator_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_vector_1_1iterator_aadb10d875be4a7d0f7f44f3df06ab289}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!base@{base}}
+\index{base@{base}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{base()}{base()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_aadb10d875be4a7d0f7f44f3df06ab289} 
+template$<$typename T$>$ \\
+T \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+base (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_1_1iterator_a4a7f03c8a2bf3810495a22b73aff84cb}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a4a7f03c8a2bf3810495a22b73aff84cb} 
+template$<$typename T$>$ \\
+bool \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator!= (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&}]{o}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a4a7f03c8a2bf3810495a22b73aff84cb_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_ade69ab239660c15ebae62167fc7d5ba9}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator\texorpdfstring{$\ast$}{*}@{operator\texorpdfstring{$\ast$}{*}}}
+\index{operator\texorpdfstring{$\ast$}{*}@{operator\texorpdfstring{$\ast$}{*}}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator\texorpdfstring{$\ast$}{*}()}{operator*()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_ade69ab239660c15ebae62167fc7d5ba9} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aea498e32440ffbc6ec81f42888fa50ca}{reference}} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator\texorpdfstring{$\ast$}{*} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_1_1iterator_ae9fd2786a7f21d5e7c9120542b0a1312}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator+@{operator+}}
+\index{operator+@{operator+}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_ae9fd2786a7f21d5e7c9120542b0a1312} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator+ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}}}]{n}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_ae9fd2786a7f21d5e7c9120542b0a1312_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a36eadbfbb4ea68cdae907da2a1ee57dd}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator++@{operator++}}
+\index{operator++@{operator++}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator++()}{operator++()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a36eadbfbb4ea68cdae907da2a1ee57dd} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \& \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator++ (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a36eadbfbb4ea68cdae907da2a1ee57dd_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_ac67c9225a0971d334d02246291922539}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator++@{operator++}}
+\index{operator++@{operator++}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator++()}{operator++()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_ac67c9225a0971d334d02246291922539} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator++ (\begin{DoxyParamCaption}\item[{int}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_ac67c9225a0971d334d02246291922539_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_aa9be6b89075f1de853f269c5d1941211}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_aa9be6b89075f1de853f269c5d1941211} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \& \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator+= (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}}}]{n}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_aa9be6b89075f1de853f269c5d1941211_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a86ed7190646c2bf79eca69571f3699d6}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a86ed7190646c2bf79eca69571f3699d6} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator-\/ (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&}]{o}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a86ed7190646c2bf79eca69571f3699d6_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_abbb2a8944e8d2040dbcf29510757af5b}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_abbb2a8944e8d2040dbcf29510757af5b} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator-\/ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}}}]{n}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_abbb2a8944e8d2040dbcf29510757af5b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_ae8c617f755ad6cc350e96b48c4e48905}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator-\/-\/()}{operator--()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_ae8c617f755ad6cc350e96b48c4e48905} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \& \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator-\/-\/ (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_ae8c617f755ad6cc350e96b48c4e48905_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a4bbb51eb646080bf397665d903ad94d7}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator-\/-\/()}{operator--()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a4bbb51eb646080bf397665d903ad94d7} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator-\/-\/ (\begin{DoxyParamCaption}\item[{int}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a4bbb51eb646080bf397665d903ad94d7_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a01adceae833f418573f2e4786cd6727e}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator-\/=()}{operator-=()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a01adceae833f418573f2e4786cd6727e} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \& \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator-\/= (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}}}]{n}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a01adceae833f418573f2e4786cd6727e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a1ec5b43d776759e0d75967dae7525ce8}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator-\/$>$@{operator-\/$>$}}
+\index{operator-\/$>$@{operator-\/$>$}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator-\/$>$()}{operator->()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a1ec5b43d776759e0d75967dae7525ce8} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_a795bfdc451d5be1c0cdf86fa37306ae5}{pointer}} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator-\/$>$ (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_1_1iterator_a489c98f0a159ec6a88432376370ce7e0}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a489c98f0a159ec6a88432376370ce7e0} 
+template$<$typename T$>$ \\
+bool \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator$<$ (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&}]{o}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a489c98f0a159ec6a88432376370ce7e0_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a45a94fa143ef8b59460bb4da10a50cef}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator$<$=()}{operator<=()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a45a94fa143ef8b59460bb4da10a50cef} 
+template$<$typename T$>$ \\
+bool \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator$<$= (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&}]{o}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a45a94fa143ef8b59460bb4da10a50cef_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_ae99bebb5779b66683c40b1a6ffc50094}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator==@{operator==}}
+\index{operator==@{operator==}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_ae99bebb5779b66683c40b1a6ffc50094} 
+template$<$typename T$>$ \\
+bool \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator== (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&}]{o}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_ae99bebb5779b66683c40b1a6ffc50094_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a597e3b65e2c78b14b1ff9da61fc76ccc}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a597e3b65e2c78b14b1ff9da61fc76ccc} 
+template$<$typename T$>$ \\
+bool \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator$>$ (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&}]{o}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a597e3b65e2c78b14b1ff9da61fc76ccc_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_a111320ce67f0b15ff2ee9d39d3173c7e}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator$>$=()}{operator>=()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a111320ce67f0b15ff2ee9d39d3173c7e} 
+template$<$typename T$>$ \\
+bool \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator$>$= (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&}]{o}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vector_1_1iterator_a111320ce67f0b15ff2ee9d39d3173c7e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vector_1_1iterator_ad1d86fc18f141b310e5ac42c4250f1b4}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator\+[]\+@{operator[]}}
+\index{operator\+[]\+@{operator[]}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_ad1d86fc18f141b310e5ac42c4250f1b4} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aea498e32440ffbc6ec81f42888fa50ca}{reference}} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+operator\+[$\,$]\+ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}}}]{n}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{class_vector_1_1iterator_doc-related-members}
+\Hypertarget{class_vector_1_1iterator_doc-related-members}
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{class_vector_1_1iterator_a306aa85f9a1b94a837514fe26c897d70}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!operator+@{operator+}}
+\index{operator+@{operator+}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{operator+}{operator+}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a306aa85f9a1b94a837514fe26c897d70} 
+template$<$typename T$>$ \\
+\doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} operator+ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_vector_1_1iterator_aa0d48b34580024f61ce8a0232d325c59}{difference\+\_\+type}}}]{n}{, }\item[{const \doxymbox{\hyperlink{class_vector_1_1iterator_aa55d1ce12e2010c1bd9aa1d10fd554f4}{iterator}} \&}]{it}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\label{class_vector_1_1iterator_doc-variable-members}
+\Hypertarget{class_vector_1_1iterator_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_vector_1_1iterator_a0d698cf230551bcdb73fed87d1b2eb9b}\index{Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}!ptr@{ptr}}
+\index{ptr@{ptr}!Vector$<$ T $>$::iterator@{Vector$<$ T $>$::iterator}}
+\doxysubsubsection{\texorpdfstring{ptr}{ptr}}
+{\footnotesize\ttfamily \label{class_vector_1_1iterator_a0d698cf230551bcdb73fed87d1b2eb9b} 
+template$<$typename T$>$ \\
+T\texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_vector}{Vector}}$<$ T $>$::\+iterator::\+ptr\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{_vector_8h}{Vector.\+h}}\end{DoxyCompactItemize}

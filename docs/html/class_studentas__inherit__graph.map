@@ -1,0 +1,5 @@
+<map id="Studentas" name="Studentas">
+<area shape="rect" id="Node000001" title="Vaizduoja studentą su namų darbų pažymiais ir galutiniu balu." alt="" coords="5,79,86,105"/>
+<area shape="rect" id="Node000002" href="$class_zmogus.html" title="Abstrakti bazinė klasė su vardu ir pavarde." alt="" coords="11,5,80,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,45,48,79,43,78,43,48"/>
+</map>

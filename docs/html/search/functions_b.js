@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['tipas_0',['tipas',['../class_zmogus.html#ac0cbaff86ba113aa32e72c13fc208818',1,'Zmogus::tipas()'],['../class_studentas.html#a9f5eaeb4fb7c599a93ec0d516f771c7b',1,'Studentas::tipas()']]],
-  ['trintifaila_1',['TrintiFaila',['../func_8h.html#a0892fce17011ab976d9f2bf0f911ba61',1,'TrintiFaila(const std::string &amp;path):&#160;func.cpp'],['../func_8cpp.html#a0892fce17011ab976d9f2bf0f911ba61',1,'TrintiFaila(const std::string &amp;path):&#160;func.cpp']]]
+  ['pavarde_0',['pavarde',['../class_zmogus.html#a67cbc20c9554324502d140eb05370be8',1,'Zmogus::pavarde()'],['../class_studentas.html#a67cbc20c9554324502d140eb05370be8',1,'Studentas::pavarde()']]],
+  ['pop_5fback_1',['pop_back',['../class_vector.html#adcba035109febbe55cba2a25f8483ba6',1,'Vector']]],
+  ['push_5fback_2',['push_back',['../class_vector.html#a8a99f38a10024ca8b4a9cc262d969f27',1,'Vector::push_back(const T &amp;val)'],['../class_vector.html#a21feade168d8cd705dbd69795c79079c',1,'Vector::push_back(T &amp;&amp;val)']]]
 ];

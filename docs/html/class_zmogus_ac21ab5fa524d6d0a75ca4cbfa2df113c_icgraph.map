@@ -1,0 +1,7 @@
+<map id="Zmogus::vardas" name="Zmogus::vardas">
+<area shape="rect" id="Node000001" title="Grąžina vardą." alt="" coords="188,31,303,56"/>
+<area shape="rect" id="Node000002" href="$class_zmogus.html#a6024e8fb5c3a9fbd48ca522f976f8465" title="Nustato vardą." alt="" coords="5,5,140,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,33,140,31,140,25,175,32"/>
+<area shape="rect" id="Node000003" href="$class_zmogus.html#ae6bfb71e4c8fddf15f3a19b4bcd6fd26" title="Konstruktorius su vardu ir pavarde." alt="" coords="11,55,134,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,54,135,62,134,56,175,53"/>
+</map>

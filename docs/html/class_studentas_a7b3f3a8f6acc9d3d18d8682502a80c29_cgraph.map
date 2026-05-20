@@ -1,0 +1,9 @@
+<map id="Studentas::Studentas" name="Studentas::Studentas">
+<area shape="rect" id="Node000001" title="Konstruktorius su vardu ir pavarde." alt="" coords="5,55,153,80"/>
+<area shape="rect" id="Node000002" href="$class_studentas.html#a67cbc20c9554324502d140eb05370be8" title="Grąžina pavardę." alt="" coords="201,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,51,203,34,199,37,132,57"/>
+<area shape="rect" id="Node000003" href="$class_studentas.html#ac21ab5fa524d6d0a75ca4cbfa2df113c" title="Grąžina vardą." alt="" coords="204,55,332,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,65,191,67,186,68,153,70"/>
+<area shape="rect" id="Node000004" href="$class_zmogus.html#a905fef3b8ad421a6d023c7ebc295f48e" title=" " alt="" coords="206,104,330,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="131,78,204,99,199,100,131,84"/>
+</map>
