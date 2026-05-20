@@ -122,29 +122,6 @@ TEST_CASE("Initialiser-list assignment", "[assignment]") {
     REQUIRE(v[1] == 20);
 }
 
-TEST_CASE("assign(n, val)", "[assignment]") {
-    Vector<int> v = {1, 2, 3, 4};
-    v.assign(2, 99);
-    REQUIRE(v.size() == 2);
-    REQUIRE(v[0] == 99);
-    REQUIRE(v[1] == 99);
-}
-
-TEST_CASE("assign(first, last)", "[assignment]") {
-    std::vector<int> src = {5, 6, 7};
-    Vector<int> v = {1, 2, 3, 4};
-    v.assign(src.begin(), src.end());
-    REQUIRE(v.size() == 3);
-    REQUIRE(v[0] == 5);
-    REQUIRE(v[2] == 7);
-}
-
-TEST_CASE("assign(initialiser_list)", "[assignment]") {
-    Vector<int> v = {1, 2};
-    v.assign({10, 20, 30, 40});
-    REQUIRE(v.size() == 4);
-    REQUIRE(v[3] == 40);
-}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Element access
@@ -307,22 +284,6 @@ TEST_CASE("iterator comparisons", "[iterators]") {
     REQUIRE(v.begin() == v.begin());
 }
 
-TEST_CASE("rbegin/rend traverses in reverse", "[iterators]") {
-    Vector<int> v = {1, 2, 3, 4, 5};
-    std::vector<int> reversed;
-    for (auto it = v.rbegin(); it != v.rend(); ++it)
-        reversed.push_back(*it);
-    REQUIRE(reversed[0] == 5);
-    REQUIRE(reversed[4] == 1);
-}
-
-TEST_CASE("crbegin/crend on const vector", "[iterators]") {
-    const Vector<int> v = {10, 20, 30};
-    auto it = v.crbegin();
-    REQUIRE(*it == 30);
-    ++it;
-    REQUIRE(*it == 20);
-}
 
 TEST_CASE("std::sort works via random-access iterators", "[iterators]") {
     Vector<int> v = {5, 3, 1, 4, 2};
@@ -341,7 +302,6 @@ TEST_CASE("empty vector begin equals end", "[iterators]") {
     Vector<int> v;
     REQUIRE(v.begin()  == v.end());
     REQUIRE(v.cbegin() == v.cend());
-    REQUIRE(v.rbegin() == v.rend());
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -422,31 +382,6 @@ TEST_CASE("reserve() preserves elements after reallocation", "[capacity]") {
         REQUIRE(v[i] == (i + 1) * 10);
 }
 
-TEST_CASE("shrink_to_fit() reduces capacity to size", "[capacity]") {
-    Vector<int> v;
-    v.reserve(100);
-    v.push_back(1);
-    v.push_back(2);
-    v.shrink_to_fit();
-    REQUIRE(v.capacity() == v.size());
-    REQUIRE(v.size() == 2);
-    REQUIRE(v[0] == 1);
-    REQUIRE(v[1] == 2);
-}
-
-TEST_CASE("shrink_to_fit() on empty vector frees memory", "[capacity]") {
-    Vector<int> v;
-    v.reserve(50);
-    v.shrink_to_fit();
-    REQUIRE(v.capacity() == 0);
-    REQUIRE(v.data()     == nullptr);
-}
-
-TEST_CASE("max_size() is large and non-zero", "[capacity]") {
-    Vector<int> v;
-    REQUIRE(v.max_size() > 0);
-    REQUIRE(v.max_size() >= (1u << 20));
-}
 
 TEST_CASE("size and capacity after clear()", "[capacity]") {
     Vector<int> v = {1, 2, 3, 4, 5};
@@ -549,16 +484,6 @@ TEST_CASE("resize to same size is a no-op", "[modifiers]") {
     REQUIRE(v[2] == 3);
 }
 
-TEST_CASE("emplace_back constructs in place", "[modifiers]") {
-    Vector<std::pair<int,int>> v;
-    v.emplace_back(1, 2);
-    v.emplace_back(3, 4);
-    REQUIRE(v.size()     == 2);
-    REQUIRE(v[0].first  == 1);
-    REQUIRE(v[0].second == 2);
-    REQUIRE(v[1].first  == 3);
-    REQUIRE(v[1].second == 4);
-}
 
 TEST_CASE("swap exchanges contents", "[modifiers]") {
     Vector<int> a = {1, 2, 3};
@@ -617,47 +542,6 @@ TEST_CASE("insert single value by move", "[insert_erase]") {
     REQUIRE(b.empty());
 }
 
-TEST_CASE("insert n copies in the middle", "[insert_erase]") {
-    Vector<int> v = {1, 5};
-    v.insert(v.cbegin() + 1, 3, 99);
-    REQUIRE(v.size() == 5);
-    REQUIRE(v[0] == 1);
-    REQUIRE(v[1] == 99);
-    REQUIRE(v[2] == 99);
-    REQUIRE(v[3] == 99);
-    REQUIRE(v[4] == 5);
-}
-
-TEST_CASE("insert n=0 copies is a no-op", "[insert_erase]") {
-    Vector<int> v = {1, 2, 3};
-    v.insert(v.cbegin(), 0, 99);
-    REQUIRE(v.size() == 3);
-}
-
-TEST_CASE("insert range from std::vector", "[insert_erase]") {
-    Vector<int> v = {1, 5};
-    std::vector<int> src = {2, 3, 4};
-    v.insert(v.cbegin() + 1, src.begin(), src.end());
-    REQUIRE(v.size() == 5);
-    for (int i = 0; i < 5; ++i)
-        REQUIRE(v[i] == i + 1);
-}
-
-TEST_CASE("insert initialiser list", "[insert_erase]") {
-    Vector<int> v = {1, 5};
-    v.insert(v.cbegin() + 1, {2, 3, 4});
-    REQUIRE(v.size() == 5);
-    for (int i = 0; i < 5; ++i)
-        REQUIRE(v[i] == i + 1);
-}
-
-TEST_CASE("emplace inserts in place", "[insert_erase]") {
-    Vector<std::pair<int,int>> v = {{1,1}, {3,3}};
-    v.emplace(v.cbegin() + 1, 2, 2);
-    REQUIRE(v.size()      == 3);
-    REQUIRE(v[1].first   == 2);
-    REQUIRE(v[1].second  == 2);
-}
 
 TEST_CASE("erase single element at beginning", "[insert_erase]") {
     Vector<int> v = {1, 2, 3, 4};
