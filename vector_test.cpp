@@ -400,6 +400,13 @@ TEST_CASE("reserve() increases capacity without changing size", "[capacity]") {
     REQUIRE(v[2] == 3);
 }
 
+TEST_CASE("test"){
+
+    Vector<int> v;
+    v.reserve(100);
+    REQUIRE(v.capacity() >= 100);
+}
+
 TEST_CASE("reserve() is a no-op when capacity already sufficient", "[capacity]") {
     Vector<int> v;
     v.reserve(50);
